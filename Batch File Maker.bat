@@ -4,6 +4,6 @@ set /p name=
 cls
 :create
 set /p creator=
-echo "%creator%">>"%name%.bat"
+echo %creator%>>"%name%.bat"
 goto create
 
